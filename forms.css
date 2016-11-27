@@ -1,0 +1,155 @@
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+
+h2 {
+  color:rgba(255,255,255,.8);
+  margin-left:12px;
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+form {
+  position:relative;
+  margin: 100px auto;
+  width: 380px;
+  height: auto;
+}
+
+
+input {
+  padding: 16px;
+  border-radius:0px;
+  border:0px;
+ background:rgba(0,0,0,0.2);
+  display: block;
+  margin: 15px;
+  width: 300px;  
+  color:black;
+  font-size:18px;
+  height: 54px;
+}
+
+input:focus {
+  
+  
+  
+  color: #e74c3c;
+}
+nav{
+	
+	padding:20px;
+	background:#303030;
+	background:rgba(0,0,0,1);
+	color:white;
+	width:100%;
+	
+}
+.logo
+{
+	
+	float:left;
+}
+ul{
+	margin-right:10%;
+	float:right;
+	list-style-type:none;
+	
+	
+}
+
+ul li
+{font-size:3.2em;
+	float:left;margin-left:20px;color:white;
+	list-style-type:none;
+}
+
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:block;
+	
+}
+.clearfix:after{clear:both;}
+
+	a{color:white;text-decoration:none;}
+a:hover{color:skyblue;text-decoration:none;}
+.login{
+margin:30% auto;
+padding:30px;
+
+background:#303030;
+background:rgba(0,0,0,0.1);	
+}
+#signform{display:none;}
+#head{
+	position:absolute;
+	background-color:white;
+	height:300px;
+	width:300px;
+}
+button{
+float:right;
+  height: 50px;
+  width: 300px;
+  border: 0px;
+  background: skyblue;
+  border-radius:7px;
+  padding: 10px;
+  color:white;
+  font-size:22px;
+  position:absolute;
+  left:22px;
+  top:200px;
+}
+.button2 {
+  float:right;
+  height: 50px;
+  height: 50px;
+  width: 300px;
+  border: 0px;
+  background: #e74c3c;
+  border-radius:7px;
+  padding: 10px;
+  color:white;
+  font-size:22px;position:absolute;left:20px;top:270px;
+}
+
+.inputUserIcon {
+  position:absolute;
+  top:68px;
+  right: 80px;
+  color:white;
+}
+
+.inputPassIcon {
+  position:absolute;
+  top:136px;
+  right: 80px;
+  color:white;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #e74c3c;
+}
